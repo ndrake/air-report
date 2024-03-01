@@ -1,0 +1,14 @@
+{
+  "name": "air-report",
+  "version": "1.0.0",
+  "description": "Report readings from IAM-T1 air quality monitor",
+  "main": "report.js",
+  "scripts": {
+    "start": "node report.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ndrake",
+  "dependencies": {
+    "@abandonware/noble": "1.9.2-24"
+  }
+}
